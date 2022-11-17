@@ -3,27 +3,6 @@ modelo T5 base em português ajustado na tarefa de Question-Answering (QA) a par
 
 Usado como base do estudo o trabalho do Pierre Guillou, descrito [neste](https://medium.com/@pierre_guillou/nlp-nas-empresas-como-eu-treinei-um-modelo-t5-em-portugu%C3%AAs-na-tarefa-qa-no-google-colab-e8eb0dc38894) artigo do medium.
 
----
-language: pt
-license: mit
-tags:
-- question-answering
-- bert
-- bert-base
-- pytorch
-datasets:
-- brWaC
-- squad
-- squad_v1_pt
-metrics:
-- squad
-widget:
-- text: "Quando começou a pandemia de Covid-19 no mundo?"
-  context: "A pandemia de COVID-19, também conhecida como pandemia de coronavírus, é uma pandemia em curso de COVID-19, uma doença respiratória aguda causada pelo coronavírus da síndrome respiratória aguda grave 2 (SARS-CoV-2). A doença foi identificada pela primeira vez em Wuhan, na província de Hubei, República Popular da China, em 1 de dezembro de 2019, mas o primeiro caso foi reportado em 31 de dezembro do mesmo ano."
-- text: "Onde foi descoberta a Covid-19?"
-  context: "A pandemia de COVID-19, também conhecida como pandemia de coronavírus, é uma pandemia em curso de COVID-19, uma doença respiratória aguda causada pelo coronavírus da síndrome respiratória aguda grave 2 (SARS-CoV-2). A doença foi identificada pela primeira vez em Wuhan, na província de Hubei, República Popular da China, em 1 de dezembro de 2019, mas o primeiro caso foi reportado em 31 de dezembro do mesmo ano." 
----
-
 # Portuguese BERT base cased QA (Question Answering), finetuned on SQUAD v1.1
 
 ## Introduction
